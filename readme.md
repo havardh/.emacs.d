@@ -4,6 +4,12 @@ Global utilities
  - Autocomplete
  - Fuzzy-match
  - magit
+ - ido
+ - org
+ - dired
+ - magit
+ - grep
+ - shell
 
 Modewise configuration
  - Compiling
@@ -12,6 +18,7 @@ Modewise configuration
 
 Global Misc
  - Styling
+  - color-theme
  - Keybindings
 
 Modes:

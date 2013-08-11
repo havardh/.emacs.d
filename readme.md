@@ -1,7 +1,7 @@
 Global utilities
  - Yasnippet *
- - Gtags
- - Autocomplete
+ - Gtags *
+ - Autocomplete 
  - Fuzzy-match
  - magit
  - ido

@@ -20,4 +20,6 @@
 (require 'setup-ido)
 (require 'setup-smex)
 
+(require 'setup-js2-mode)
+
 (require 'key-bindings)

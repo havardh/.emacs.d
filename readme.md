@@ -2,13 +2,14 @@ Global utilities
  - Yasnippet *
  - Gtags *
  - Autocomplete *
- - Fuzzy-match
+  - Semantics
  - magit *
- - ido
- - org
- - dired
- - grep
- - shell
+ - smex *
+ - ido *
+ - org *
+ - dired *
+ - grep *
+ - shell *
 
 Modewise configuration
  - Compiling
@@ -17,6 +18,7 @@ Modewise configuration
 
 Global Misc
  - Styling
+  - indention
   - color-theme
  - Keybindings
 

@@ -21,6 +21,7 @@
 (require 'setup-magit)
 (require 'setup-ido)
 (require 'setup-smex)
+(require 'setup-multiple-cursors)
 
 (require 'setup-js2-mode)
 (require 'setup-php-mode)

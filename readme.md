@@ -10,6 +10,7 @@ Global utilities
  - dired *
  - grep *
  - shell *
+ - markmultiple
 
 Modewise configuration
  - Compiling

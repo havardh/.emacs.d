@@ -13,3 +13,6 @@
 [submodule ".emacs.d/modes/php-mode"]
 	path = .emacs.d/modes/php-mode
 	url = https://github.com/ejmr/php-mode.git
+[submodule ".emacs.d/themes/birds-of-paradise"]
+	path = .emacs.d/themes/birds-of-paradise
+	url = https://github.com/jimeh/birds-of-paradise-plus-theme.el.git

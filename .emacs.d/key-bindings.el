@@ -16,4 +16,7 @@
 (global-set-key (kbd "M-x") 'smex)
 (global-set-key (kbd "M-X") 'smex-major-mode-commands)
 
+; Autocomplete
+(global-set-key (kbd "C-.") 'auto-complete)
+
 (provide 'key-bindings)

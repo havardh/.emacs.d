@@ -14,5 +14,6 @@
 (require 'styles)
 
 (require 'setup-yasnippet)
+(require 'setup-gtags)
 
 (require 'key-bindings)

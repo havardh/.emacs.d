@@ -1,5 +1,5 @@
 Global utilities
- - Yasnippet
+ - Yasnippet *
  - Gtags
  - Autocomplete
  - Fuzzy-match

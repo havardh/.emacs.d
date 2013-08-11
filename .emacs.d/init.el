@@ -21,5 +21,6 @@
 (require 'setup-smex)
 
 (require 'setup-js2-mode)
+(require 'setup-php-mode)
 
 (require 'key-bindings)

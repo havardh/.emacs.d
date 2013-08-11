@@ -10,3 +10,6 @@
 [submodule ".emacs.d/modes/js2-mode"]
 	path = .emacs.d/modes/js2-mode
 	url = https://github.com/mooz/js2-mode.git
+[submodule ".emacs.d/modes/php-mode"]
+	path = .emacs.d/modes/php-mode
+	url = https://github.com/ejmr/php-mode.git

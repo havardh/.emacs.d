@@ -12,4 +12,8 @@
 ; Magit
 (global-set-key (kbd "C-x m") 'magit-status)
 
+; Smex
+(global-set-key (kbd "M-x") 'smex)
+(global-set-key (kbd "M-X") 'smex-major-mode-commands)
+
 (provide 'key-bindings)

@@ -18,5 +18,6 @@
 (require 'setup-autocomplete)
 (require 'setup-magit)
 (require 'setup-ido)
+(require 'setup-smex)
 
 (require 'key-bindings)

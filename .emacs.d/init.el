@@ -17,5 +17,6 @@
 (require 'setup-gtags)
 (require 'setup-autocomplete)
 (require 'setup-magit)
+(require 'setup-ido)
 
 (require 'key-bindings)

@@ -1,13 +1,12 @@
 Global utilities
  - Yasnippet *
  - Gtags *
- - Autocomplete 
+ - Autocomplete *
  - Fuzzy-match
- - magit
+ - magit *
  - ido
  - org
  - dired
- - magit
  - grep
  - shell
 

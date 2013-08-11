@@ -16,5 +16,6 @@
 (require 'setup-yasnippet)
 (require 'setup-gtags)
 (require 'setup-autocomplete)
+(require 'setup-magit)
 
 (require 'key-bindings)

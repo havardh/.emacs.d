@@ -9,4 +9,7 @@
 (global-set-key (kbd "C-t t") 'gtags-find-tag-from-here)
 (global-set-key (kbd "C-t b") 'gtags-pop-stack)
 
+; Magit
+(global-set-key (kbd "C-x m") 'magit-status)
+
 (provide 'key-bindings)

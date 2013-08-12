@@ -12,10 +12,10 @@ Global utilities
  - shell *
  - markmultiple *
  - flymake
- - projects
+ - projects *
 
 Modewise configuration
- - Compiling
+ - Compiling 
  - Testing
  - Static syntax check
 

@@ -24,6 +24,8 @@
 (require 'setup-multiple-cursors)
 (require 'setup-perspective)
 
+(require 'user-functions)
+
 (require 'setup-js2-mode)
 (require 'setup-php-mode)
 

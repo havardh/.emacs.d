@@ -19,3 +19,6 @@
 [submodule ".emacs.d/site-lisp/multiple-cursors"]
 	path = .emacs.d/site-lisp/multiple-cursors
 	url = https://github.com/magnars/multiple-cursors.el.git
+[submodule ".emacs.d/site-lisp/perspective"]
+	path = .emacs.d/site-lisp/perspective
+	url = https://github.com/nex3/perspective-el.git

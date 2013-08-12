@@ -45,5 +45,7 @@
 (global-set-key (kbd "M-~") 'mc/sort-regions)
 (global-set-key (kbd "H-~") 'mc/insert-numbers)
 
+; Perspective
+(define-key persp-mode-map (kbd "C-x p ~") 'custom-persp-last)
 
 (provide 'key-bindings)

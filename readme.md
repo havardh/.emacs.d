@@ -10,7 +10,9 @@ Global utilities
  - dired *
  - grep *
  - shell *
- - markmultiple
+ - markmultiple *
+ - flymake
+ - projects
 
 Modewise configuration
  - Compiling

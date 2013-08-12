@@ -14,4 +14,12 @@
 		(find-file custom-persp/project-root)))
 (define-key persp-mode-map (kbd "C-x p j") 'custom-persp/js)
 
+(defun custom-persp/php nil
+  (interactive)
+  (setq custom-persp/project-root "~/php")
+  (custom-persp "php"
+		(find-file custom-persp/project-root)))
+(define-key persp-mode-map (kbd "C-x p p") 'custom-persp/php)
+  
+
 (provide 'setup-projects)

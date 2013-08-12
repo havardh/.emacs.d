@@ -18,6 +18,7 @@
   (call-process "global" nil nil nil "-u"))
 
 (defun gtags-update-hook ()
+  (interactive)
   (when (gtags-root-dir)
     (gtags-update)))
 

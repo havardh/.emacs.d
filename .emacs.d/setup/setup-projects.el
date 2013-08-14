@@ -5,15 +5,17 @@
 (defun custom-persp/emacs nil
   (interactive)
   (setq custom-persp/project-root "~/")
-  (custom-persp "emacs"
-		(find-file custom-persp/project-root)))
+  (setq custom-persp/project-c-basic-offset 2)
+  (setq custom-persp/project-indent-tabs-mode nil)
+  (custom-persp "emacs" (find-file custom-persp/project-root)))
+
 (define-key persp-mode-map (kbd "C-x p e") 'custom-persp/emacs)
 
 (defun custom-persp/js nil
   (interactive)
   (setq custom-persp/project-root "~/js")
-  (custom-persp "js"
-		(find-file custom-persp/project-root)))
+  (custom-persp "js" (find-file custom-persp/project-root)))
+
 (define-key persp-mode-map (kbd "C-x p j") 'custom-persp/js)
 
 (defun custom-persp/php nil
@@ -21,8 +23,8 @@
   (setq custom-persp/project-root "~/php")
   (setq custom-persp/project-c-basic-offset 2)
   (setq custom-persp/project-indent-tabs-mode nil)
-  (custom-persp "php"
-		(find-file custom-persp/project-root)))
+  (custom-persp "php" (find-file custom-persp/project-root)))
+
 (define-key persp-mode-map (kbd "C-x p p") 'custom-persp/php)
 
 (defun custom-persp/ibok nil
@@ -30,8 +32,8 @@
   (setq custom-persp/project-root "/Users/havard/Documents/programmering/php/ibok")
   (setq custom-persp/project-c-basic-offset 2)
   (setq custom-persp/project-indent-tabs-mode t)
-  (custom-persp "ibok"
-		(find-file custom-persp/project-root)))
+  (custom-persp "ibok" (find-file custom-persp/project-root)))
+
 (define-key persp-mode-map (kbd "C-x p i") 'custom-persp/ibok)
 
 (defun after-major-mode-hook nil

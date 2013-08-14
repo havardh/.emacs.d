@@ -40,7 +40,12 @@
   (interactive)
   (setq c-basic-offset custom-persp/project-c-basic-offset)
   (setq indent-tabs-mode custom-persp/project-indent-tabs-mode)
-  (setq tab-width custom-persp/project-c-basic-offset))
+  (setq tab-width custom-persp/project-c-basic-offset)
+  ; web-mode
+  (setq web-mode-markup-indent-offset custom-persp/project-c-basic-offset)
+  (setq web-mode-css-indent-offset custom-persp/project-c-basic-offset)
+  (setq web-mode-code-indent-offset custom-persp/project-c-basic-offset)
+  (setq web-mode-indent-style custom-persp/project-c-basic-offset))
 
 (add-hook 'after-change-major-mode-hook 'after-major-mode-hook)
 

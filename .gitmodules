@@ -25,3 +25,6 @@
 [submodule ".emacs.d/site-lisp/tern"]
 	path = .emacs.d/site-lisp/tern
 	url = https://github.com/marijnh/tern.git
+[submodule ".emacs.d/modes/web-mode"]
+	path = .emacs.d/modes/web-mode
+	url = https://github.com/fxbois/web-mode.git

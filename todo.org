@@ -1,0 +1,38 @@
+Global utilities [11/12]
+ - [X] Yasnippet
+ - [X] Gtags
+ - [-] Autocomplete
+   - [X] mode
+   - [ ] Semantics
+ - [X] magit
+ - [X] smex
+ - [X] ido
+ - [X] org
+ - [X] dired
+ - [X] grep
+ - [X] shell
+ - [X] markmultiple
+ - [X] flymake
+ - [X] projects
+
+Modewise configuration [0/3]
+ - [ ] Compiling 
+ - [ ] Testing
+ - [ ] Static syntax check
+
+Global Misc [0/2]
+ - [ ] Styling
+  - [ ] indention
+  - [ ] color-theme
+ - [ ] Keybindings
+
+Modes [7/8]
+ - [X] js-mode *
+ - [ ] js2-mode *
+   - [ ] tern + https://github.com/ramitos/jsctags?
+ - [X] php-mode *
+ - [X] c-mode *
+ - [X] c++-mode *
+ - [X] css-mode *
+ - [X] python-mode *
+ - [X] java-mode *

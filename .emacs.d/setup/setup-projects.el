@@ -36,6 +36,34 @@
 
 (define-key persp-mode-map (kbd "C-x p i") 'custom-persp/ibok)
 
+
+(defun custom-persp/gumbo nil
+  (interactive)
+  (setq custom-persp/project-root "~/c/gumbo-parser")
+  (setq custom-persp/project-c-basic-offset 2)
+  (setq custom-persp/project-indent-tabs-mode nil)
+  (custom-persp "gumbo" (find-file custom-persp/project-root)))
+
+(define-key persp-mode-map (kbd "C-x p g") 'custom-persp/gumbo)
+
+(defun custom-persp/gumbo-test nil
+  (interactive)
+  (setq custom-persp/project-root "~/c/gumbo-test")
+  (setq custom-persp/project-c-basic-offset 2)
+  (setq custom-persp/project-indent-tabs-mode nil)
+  (custom-persp "gt" (find-file custom-persp/project-root)))
+
+(define-key persp-mode-map (kbd "C-x p t") 'custom-persp/gumbo-test)
+
+(defun custom-persp/java-test nil
+  (interactive)
+  (setq custom-persp/project-root "~/java/test")
+  (setq custom-persp/project-c-basic-offset 2)
+  (setq custom-persp/project-indent-tabs-mode nil)
+  (custom-persp "java-test" (find-file custom-persp/project-root)))
+
+(define-key persp-mode-map (kbd "C-x p a") 'custom-persp/java-test)
+
 (defun after-major-mode-hook nil
   (interactive)
   (setq c-basic-offset custom-persp/project-c-basic-offset)

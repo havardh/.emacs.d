@@ -1,4 +1,4 @@
-Global utilities [11/12]
+* Global utilities [12/13]
  - [X] Yasnippet
  - [X] Gtags
  - [-] Autocomplete
@@ -15,18 +15,19 @@ Global utilities [11/12]
  - [X] flymake
  - [X] projects
 
-Modewise configuration [0/3]
- - [ ] Compiling 
+* Modewise configuration [1/4]
  - [ ] Testing
+ - [ ] Compiling
+ - [ ] Deploy
+ - [X] Indention
  - [ ] Static syntax check
 
-Global Misc [0/2]
+* Global Misc [0/2]
  - [ ] Styling
-  - [ ] indention
   - [ ] color-theme
  - [ ] Keybindings
 
-Modes [7/8]
+* Modes [7/8]
  - [X] js-mode *
  - [ ] js2-mode *
    - [ ] tern + https://github.com/ramitos/jsctags?

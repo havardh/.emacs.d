@@ -64,6 +64,15 @@
 
 (define-key persp-mode-map (kbd "C-x p a") 'custom-persp/java-test)
 
+(defun custom-persp/berkeley nil
+  (interactive)
+  (setq custom-persp/project-root "/Users/havard/Documents/berkeley")
+  (setq custom-persp/project-c-basic-offset 2)
+  (setq custom-persp/project-indent-tabs-mode nil)
+  (custom-persp "berkeley" (find-file custom-persp/project-root)))
+
+(define-key persp-mode-map (kbd "C-x p b") 'custom-persp/berkeley)
+
 (defun after-major-mode-hook nil
   (interactive)
   (setq c-basic-offset custom-persp/project-c-basic-offset)
@@ -73,7 +82,9 @@
   (setq web-mode-markup-indent-offset custom-persp/project-c-basic-offset)
   (setq web-mode-css-indent-offset custom-persp/project-c-basic-offset)
   (setq web-mode-code-indent-offset custom-persp/project-c-basic-offset)
-  (setq web-mode-indent-style custom-persp/project-c-basic-offset))
+  (setq web-mode-indent-style custom-persp/project-c-basic-offset)
+  ; autocomplete fix
+  (delq 'ac-source-yasnippet ac-sources))
 
 (add-hook 'after-change-major-mode-hook 'after-major-mode-hook)
 

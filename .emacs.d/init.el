@@ -30,6 +30,7 @@
 (require 'setup-js2-mode)
 (require 'setup-php-mode)
 (require 'setup-web-mode)
+(require 'setup-c-mode)
 
 (require 'setup-projects)
 

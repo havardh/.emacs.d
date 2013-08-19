@@ -23,6 +23,7 @@
 (require 'setup-smex)
 (require 'setup-multiple-cursors)
 (require 'setup-perspective)
+(require 'setup-minimap)
 
 (require 'user-functions)
 

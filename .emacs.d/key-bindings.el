@@ -48,6 +48,11 @@
 ; Perspective
 (define-key persp-mode-map (kbd "C-x p ~") 'custom-persp-last)
 
+; Copy-paste
+(global-set-key (kbd "M-v") 'yank)
+(global-set-key (kbd "M-z") 'undo)
+(global-set-key (kbd "M-c") 'kill-ring-save)
+
 ; Expand region
 (global-set-key (kbd "C-@") 'er/expand-region)
 (global-set-key (kbd "M-@") 'er/contract-region)

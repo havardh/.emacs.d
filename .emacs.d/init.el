@@ -27,6 +27,7 @@
 (require 'setup-expand-region)
 
 (require 'user-functions)
+(require 'setup-user-preferences)
 
 (require 'setup-js2-mode)
 (require 'setup-php-mode)

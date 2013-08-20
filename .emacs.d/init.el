@@ -24,6 +24,7 @@
 (require 'setup-multiple-cursors)
 (require 'setup-perspective)
 (require 'setup-minimap)
+(require 'setup-expand-region)
 
 (require 'user-functions)
 

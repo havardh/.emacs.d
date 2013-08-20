@@ -31,3 +31,9 @@
 [submodule ".emacs.d/modes/web-mode"]
 	path = .emacs.d/modes/web-mode
 	url = https://github.com/fxbois/web-mode.git
+[submodule ".emacs.d/site-lisp/test-case-mode"]
+	path = .emacs.d/site-lisp/test-case-mode
+	url = https://github.com/nschum/test-case-mode.git
+[submodule ".emacs.d/site-lisp/expand-region"]
+	path = .emacs.d/site-lisp/expand-region
+	url = https://github.com/magnars/expand-region.el

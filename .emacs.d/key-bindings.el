@@ -48,4 +48,8 @@
 ; Perspective
 (define-key persp-mode-map (kbd "C-x p ~") 'custom-persp-last)
 
+; Expand region
+(global-set-key (kbd "C-@") 'er/expand-region)
+(global-set-key (kbd "M-@") 'er/contract-region)
+
 (provide 'key-bindings)

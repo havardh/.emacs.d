@@ -25,7 +25,7 @@
   (setq custom-persp/project-indent-tabs-mode nil)
   (custom-persp "php" (find-file custom-persp/project-root)))
 
-(define-key persp-mode-map (kbd "C-x p p") 'custom-persp/php)
+;(define-key persp-mode-map (kbd "C-x p p") 'custom-persp/php)
 
 (defun custom-persp/ibok nil
   (interactive)
@@ -72,6 +72,15 @@
   (custom-persp "berkeley" (find-file custom-persp/project-root)))
 
 (define-key persp-mode-map (kbd "C-x p b") 'custom-persp/berkeley)
+
+(defun custom-persp/parallell nil
+  (interactive)
+  (setq custom-persp/project-root "/Users/havard/Documents/programmering/c/parallell")
+  (setq custom-persp/project-c-basic-offset 2)
+  (setq custom-persp/project-indent-tabs-mode nil)
+  (custom-persp "parallell" (find-file custom-persp/project-root)))
+
+(define-key persp-mode-map (kbd "C-x p p") 'custom-persp/parallell)
 
 (defun after-major-mode-hook nil
   (interactive)

@@ -36,6 +36,7 @@
 ;(require 'setup-web-mode)
 (require 'setup-multi-web-mode)
 
+;(require 'setup-skewer-mode)
 (require 'setup-projects)
 
 (require 'mode-bindings)

@@ -37,3 +37,9 @@
 [submodule ".emacs.d/site-lisp/expand-region"]
 	path = .emacs.d/site-lisp/expand-region
 	url = https://github.com/magnars/expand-region.el
+[submodule ".emacs.d/site-lisp/skewer-mode"]
+	path = .emacs.d/site-lisp/skewer-mode
+	url = https://github.com/skeeto/skewer-mode.git
+[submodule ".emacs.d/site-lisp/emacs-http-server"]
+	path = .emacs.d/site-lisp/emacs-http-server
+	url = https://github.com/skeeto/emacs-http-server.git

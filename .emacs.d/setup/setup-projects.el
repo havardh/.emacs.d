@@ -82,6 +82,15 @@
 
 (define-key persp-mode-map (kbd "C-x p p") 'custom-persp/parallell)
 
+(defun custom-persp/smp nil
+  (interactive)
+  (setq custom-persp/project-root "/home/havard/workspace/smp")
+  (setq custom-persp/project-c-basic-offset 4)
+  (setq custom-persp/project-indent-tabs-mode nil)
+  (custom-persp "smp" (find-file custom-persp/project-root)))
+
+(define-key persp-mode-map (kbd "C-x p s") 'custom-persp/smp)
+
 (defun after-major-mode-hook nil
   (interactive)
   (setq c-basic-offset custom-persp/project-c-basic-offset)

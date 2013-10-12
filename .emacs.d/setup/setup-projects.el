@@ -4,7 +4,7 @@
 
 (defun custom-persp/emacs nil
   (interactive)
-  (setq custom-persp/project-root "~/")
+  (setq custom-persp/project-root "/Users/havard/Documents/programmering/elisp/emacsd")
   (setq custom-persp/project-c-basic-offset 2)
   (setq custom-persp/project-indent-tabs-mode nil)
   (custom-persp "emacs" (find-file custom-persp/project-root)))
@@ -76,11 +76,29 @@
 (defun custom-persp/parallell nil
   (interactive)
   (setq custom-persp/project-root "/Users/havard/Documents/programmering/c/parallell")
-  (setq custom-persp/project-c-basic-offset 2)
+  (setq custom-persp/project-c-basic-offset 4)
   (setq custom-persp/project-indent-tabs-mode nil)
   (custom-persp "parallell" (find-file custom-persp/project-root)))
 
 (define-key persp-mode-map (kbd "C-x p p") 'custom-persp/parallell)
+
+(defun custom-persp/gecko nil
+  (interactive)
+  (setq custom-persp/project-root "/Users/havard/Documents/programmering/c/gecko")
+  (setq custom-persp/project-c-basic-offset 2)
+  (setq custom-persp/project-indent-tabs-mode nil)
+  (custom-persp "gecko" (find-file custom-persp/project-root)))
+
+(define-key persp-mode-map (kbd "C-x p g") 'custom-persp/gecko)
+
+(defun custom-persp/comp.proj nil
+  (interactive)
+  (setq custom-persp/project-root "/Users/havard/Documents/programmering/c/tdt4295/")
+  (setq custom-persp/project-c-basic-offset 2)
+  (setq custom-persp/project-indent-tabs-mode t)
+  (custom-persp "comp.proj" (find-file custom-persp/project-root)))
+
+(define-key persp-mode-map (kbd "C-x p c") 'custom-persp/comp.proj)
 
 (defun after-major-mode-hook nil
   (interactive)

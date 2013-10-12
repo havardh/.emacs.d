@@ -57,4 +57,8 @@
 (global-set-key (kbd "C-@") 'er/expand-region)
 (global-set-key (kbd "M-@") 'er/contract-region)
 
+; Move
+(global-set-key (kbd "M-<up>") 'beginning-of-buffer)
+(global-set-key (kbd "M-<down>") 'end-of-buffer)
+
 (provide 'key-bindings)

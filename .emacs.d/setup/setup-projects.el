@@ -55,6 +55,15 @@
 
 (define-key persp-mode-map (kbd "C-x p t") 'custom-persp/gumbo-test)
 
+(defun custom-persp/itera-nurse nil
+  (interactive)
+  (setq custom-persp/project-root "~/projects/cordova/itera-nurse")
+  (setq custom-persp/project-c-basic-offset 2)
+  (setq custom-persp/project-indent-tabs-mode nil)
+  (custom-persp "itera-nurse" (find-file custom-persp/project-root)))
+
+(define-key persp-mode-map (kbd "C-x p n") 'custom-persp/itera-nurse)
+
 (defun custom-persp/java-test nil
   (interactive)
   (setq custom-persp/project-root "~/java/test")

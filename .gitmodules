@@ -43,3 +43,6 @@
 [submodule ".emacs.d/site-lisp/emacs-http-server"]
 	path = .emacs.d/site-lisp/emacs-http-server
 	url = https://github.com/skeeto/emacs-http-server.git
+[submodule ".emacs.d/modes/scala-mode2"]
+	path = .emacs.d/modes/scala-mode2
+	url = https://github.com/hvesalai/scala-mode2.git

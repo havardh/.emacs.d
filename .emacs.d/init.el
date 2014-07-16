@@ -33,6 +33,7 @@
 (require 'setup-php-mode)
 (require 'setup-web-mode)
 (require 'setup-c-mode)
+(require 'setup-scala-mode)
 ;(require 'setup-web-mode)
 (require 'setup-multi-web-mode)
 

@@ -1,0 +1,23 @@
+# -*- mode: snippet -*-
+# name: require jasmine test
+# key: deftest
+# --
+define([
+  "angular",
+  "angular-mocks"
+  "app"$5
+], function(angular$4) {
+
+  describe('$3', function() {
+
+    beforeEach(angular.mock.module("app"));
+
+    it('$2' angular.mock.inject(function($1) {
+
+       $0
+
+    }));
+
+  });
+
+});
